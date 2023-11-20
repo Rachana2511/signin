@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(84, 209, 62);
+
+}
+.pinky,a{
+    display: block;
+    
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: lightslategray;
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px;
+}
+form h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: blue;
+}
+form label{
+    color: black;
+    font-size: 20px;
+}
+form .pp{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+
+}
+#btn{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+#cncl{
+    background-color: red;
+}
+form a{
+    text-decoration: none;
+    color:rgb(29, 27, 112);
+}
+.fa-user-secret{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+}
+#user{
+    position: relative;
+}
